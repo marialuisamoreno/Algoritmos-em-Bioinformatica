@@ -1,5 +1,4 @@
 # Developed by Maria Luisa Santos Moreno Sanches
-# Based on https://www.biostars.org/p/250123/
 # Commands from https://biopython.org/
 
 # All files in entrada/ directory will be used
@@ -22,20 +21,18 @@ for file in files:
         # Use Biopython's parse function to process individual
         # FASTA records (thus reducing memory footprint)
         for record in SeqIO.parse(handle, 'fasta'):
-            # Extract individual parts of the FASTA record
-            identifier = record.id
-            description = record.description
+            # Modifying the information to the new FASTA file
+            record.description = "___RNA convertido___" + record.description
+            # Original sequence
             sequence = record.seq
-
-            # Example: adapt to extract features you are interested in
-            print('\n----------------------------------------------------------')
-            print('File: ' + file + '\n')
-            print('Processing the record {}:'.format(identifier))
-            print('Its description is: {}'.format(description))
+            # Transcribed sequence
+            record.seq = sequence.transcribe()
+            # Saving the file in a FASTA file
+            exit_file = "saida/rna_convertido_" + str(file)
+            saved_file = SeqIO.write(record, exit_file, 'fasta')
+            # Checking if everything went okay
+            if saved_file!=1: print('Error while writing sequence:  ' + record.id)
+            # Printing the amount of nucleotides
             amount_of_nucleotides = len(sequence)
-            print('Its sequence contains {} nucleotides, which:'.format(amount_of_nucleotides))
-            print('A: {}'.format(sequence.count("A")))
-            print('C: {}'.format(sequence.count("C")))
-            print('G: {}'.format(sequence.count("G")))
-            print('T: {}'.format(sequence.count("T")))
-            
+            print(record.description)
+            print('Its sequence contains {} nucleotides.'.format(amount_of_nucleotides))
