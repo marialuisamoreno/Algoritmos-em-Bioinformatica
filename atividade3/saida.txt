@@ -1,0 +1,170 @@
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_1:
+Its description is: lcl|MN908947.3_gene_1 [gene=orf1ab] [location=266..21555] [gbkey=Gene]
+Its sequence contains 21290 nucleotides, which:
+A: 6425
+C: 3744
+G: 4230
+T: 6891
+Amount of GC: 798
+
+Melting Temperature Values
+Tm_Wallace: 58528.00
+Tm_GC: 74.98
+Tm_NN: 77.47
+Arizona's: 64.89
+
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_2:
+Its description is: lcl|MN908947.3_gene_2 [gene=S] [location=21563..25384] [gbkey=Gene]
+Its sequence contains 3822 nucleotides, which:
+A: 1125
+C: 723
+G: 703
+T: 1271
+Amount of GC: 137
+
+Melting Temperature Values
+Tm_Wallace: 10496.00
+Tm_GC: 74.80
+Tm_NN: 77.47
+Arizona's: 64.78
+
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_3:
+Its description is: lcl|MN908947.3_gene_3 [gene=ORF3a] [location=25393..26220] [gbkey=Gene]
+Its sequence contains 828 nucleotides, which:
+A: 225
+C: 174
+G: 153
+T: 276
+Amount of GC: 35
+
+Melting Temperature Values
+Tm_Wallace: 2310.00
+Tm_GC: 75.12
+Tm_NN: 77.89
+Arizona's: 64.31
+
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_4:
+Its description is: lcl|MN908947.3_gene_4 [gene=E] [location=26245..26472] [gbkey=Gene]
+Its sequence contains 228 nucleotides, which:
+A: 49
+C: 45
+G: 42
+T: 92
+Amount of GC: 9
+
+Melting Temperature Values
+Tm_Wallace: 630.00
+Tm_GC: 72.67
+Tm_NN: 74.89
+Arizona's: 62.72
+
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_5:
+Its description is: lcl|MN908947.3_gene_5 [gene=M] [location=26523..27191] [gbkey=Gene]
+Its sequence contains 669 nucleotides, which:
+A: 171
+C: 146
+G: 139
+T: 213
+Amount of GC: 41
+
+Melting Temperature Values
+Tm_Wallace: 1908.00
+Tm_GC: 76.22
+Tm_NN: 79.06
+Arizona's: 64.18
+
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_6:
+Its description is: lcl|MN908947.3_gene_6 [gene=ORF6] [location=27202..27387] [gbkey=Gene]
+Its sequence contains 186 nucleotides, which:
+A: 68
+C: 26
+G: 26
+T: 66
+Amount of GC: 2
+
+Melting Temperature Values
+Tm_Wallace: 476.00
+Tm_GC: 67.89
+Tm_NN: 69.41
+Arizona's: 62.22
+
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_7:
+Its description is: lcl|MN908947.3_gene_7 [gene=ORF7a] [location=27394..27759] [gbkey=Gene]
+Its sequence contains 366 nucleotides, which:
+A: 108
+C: 79
+G: 61
+T: 118
+Amount of GC: 16
+
+Melting Temperature Values
+Tm_Wallace: 1012.00
+Tm_GC: 73.70
+Tm_NN: 76.42
+Arizona's: 63.55
+
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_8:
+Its description is: lcl|MN908947.3_gene_8 [gene=ORF8] [location=27894..28259] [gbkey=Gene]
+Its sequence contains 366 nucleotides, which:
+A: 101
+C: 64
+G: 67
+T: 134
+Amount of GC: 8
+
+Melting Temperature Values
+Tm_Wallace: 994.00
+Tm_GC: 72.69
+Tm_NN: 74.84
+Arizona's: 63.54
+
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_9:
+Its description is: lcl|MN908947.3_gene_9 [gene=N] [location=28274..29533] [gbkey=Gene]
+Its sequence contains 1260 nucleotides, which:
+A: 400
+C: 315
+G: 280
+T: 265
+Amount of GC: 85
+
+Melting Temperature Values
+Tm_Wallace: 3710.00
+Tm_GC: 78.54
+Tm_NN: 81.88
+Arizona's: 64.53
+
+----------------------------------------------------------
+File: Covid-19 sequences Wuhan.fasta
+Processing the record lcl|MN908947.3_gene_10:
+Its description is: lcl|MN908947.3_gene_10 [gene=ORF10] [location=29558..29674] [gbkey=Gene]
+Its sequence contains 117 nucleotides, which:
+A: 35
+C: 21
+G: 19
+T: 42
+Amount of GC: 4
+
+Melting Temperature Values
+Tm_Wallace: 314.00
+Tm_GC: 68.54
+Tm_NN: 69.85
+Arizona's: 60.64
+
