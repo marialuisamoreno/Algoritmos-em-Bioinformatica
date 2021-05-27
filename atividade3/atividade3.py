@@ -56,7 +56,13 @@ for file in files:
             exit_file.writelines('C: {}\n'.format(sequence.count("C")))
             exit_file.writelines('G: {}\n'.format(sequence.count("G")))
             exit_file.writelines('T: {}\n'.format(sequence.count("T")))
-            exit_file.writelines('Amount of GC: {}\n'.format(sequence.count("GC")))
+
+            # Calculating the percentage of GC
+            amount_of_GC = sequence.count("C") + sequence.count("G")
+            percentage_of_GC = (amount_of_GC/amount_of_nucleotides)*100
+
+            exit_file.writelines('Amount of GC: {}\n'.format(amount_of_GC))
+            exit_file.writelines('% of GC: {}%\n'.format('%0.2f' % percentage_of_GC))
             exit_file.writelines('\nMelting Temperature Values\n')
 
             # Calculating Melting Temperature
@@ -65,8 +71,7 @@ for file in files:
             exit_file.writelines('Tm_NN: {}\n'.format('%0.2f' % mt.Tm_NN(sequence)))
 
             # From University of Arizona Formula
-            amount_of_GC = sequence.count("GC")
-            tm = 64.9 + 0.41*(amount_of_GC/amount_of_nucleotides) - (500/amount_of_nucleotides)
+            tm = 64.9 + 0.41*percentage_of_GC - (500/amount_of_nucleotides)
             exit_file.writelines('Arizona\'s: {}\n'.format('%0.2f' % tm))
             exit_file.writelines('\n')
 
@@ -75,7 +80,7 @@ for file in files:
             TMwallace_values.append(mt.Tm_Wallace(sequence))
             TMGC_values.append(mt.Tm_GC(sequence))
             TMNN_values.append(mt.Tm_NN(sequence))
-            GC_values.append(amount_of_GC)
+            GC_values.append(percentage_of_GC)
 
 exit_file.close()
 

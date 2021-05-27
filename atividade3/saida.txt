@@ -7,13 +7,14 @@ A: 6425
 C: 3744
 G: 4230
 T: 6891
-Amount of GC: 798
+Amount of GC: 7974
+% of GC: 37.45%
 
 Melting Temperature Values
 Tm_Wallace: 58528.00
 Tm_GC: 74.98
 Tm_NN: 77.47
-Arizona's: 64.89
+Arizona's: 80.23
 
 ----------------------------------------------------------
 File: Covid-19 sequences Wuhan.fasta
@@ -24,13 +25,14 @@ A: 1125
 C: 723
 G: 703
 T: 1271
-Amount of GC: 137
+Amount of GC: 1426
+% of GC: 37.31%
 
 Melting Temperature Values
 Tm_Wallace: 10496.00
 Tm_GC: 74.80
 Tm_NN: 77.47
-Arizona's: 64.78
+Arizona's: 80.07
 
 ----------------------------------------------------------
 File: Covid-19 sequences Wuhan.fasta
@@ -41,13 +43,14 @@ A: 225
 C: 174
 G: 153
 T: 276
-Amount of GC: 35
+Amount of GC: 327
+% of GC: 39.49%
 
 Melting Temperature Values
 Tm_Wallace: 2310.00
 Tm_GC: 75.12
 Tm_NN: 77.89
-Arizona's: 64.31
+Arizona's: 80.49
 
 ----------------------------------------------------------
 File: Covid-19 sequences Wuhan.fasta
@@ -58,13 +61,14 @@ A: 49
 C: 45
 G: 42
 T: 92
-Amount of GC: 9
+Amount of GC: 87
+% of GC: 38.16%
 
 Melting Temperature Values
 Tm_Wallace: 630.00
 Tm_GC: 72.67
 Tm_NN: 74.89
-Arizona's: 62.72
+Arizona's: 78.35
 
 ----------------------------------------------------------
 File: Covid-19 sequences Wuhan.fasta
@@ -75,13 +79,14 @@ A: 171
 C: 146
 G: 139
 T: 213
-Amount of GC: 41
+Amount of GC: 285
+% of GC: 42.60%
 
 Melting Temperature Values
 Tm_Wallace: 1908.00
 Tm_GC: 76.22
 Tm_NN: 79.06
-Arizona's: 64.18
+Arizona's: 81.62
 
 ----------------------------------------------------------
 File: Covid-19 sequences Wuhan.fasta
@@ -92,13 +97,14 @@ A: 68
 C: 26
 G: 26
 T: 66
-Amount of GC: 2
+Amount of GC: 52
+% of GC: 27.96%
 
 Melting Temperature Values
 Tm_Wallace: 476.00
 Tm_GC: 67.89
 Tm_NN: 69.41
-Arizona's: 62.22
+Arizona's: 73.67
 
 ----------------------------------------------------------
 File: Covid-19 sequences Wuhan.fasta
@@ -109,13 +115,14 @@ A: 108
 C: 79
 G: 61
 T: 118
-Amount of GC: 16
+Amount of GC: 140
+% of GC: 38.25%
 
 Melting Temperature Values
 Tm_Wallace: 1012.00
 Tm_GC: 73.70
 Tm_NN: 76.42
-Arizona's: 63.55
+Arizona's: 79.22
 
 ----------------------------------------------------------
 File: Covid-19 sequences Wuhan.fasta
@@ -126,13 +133,14 @@ A: 101
 C: 64
 G: 67
 T: 134
-Amount of GC: 8
+Amount of GC: 131
+% of GC: 35.79%
 
 Melting Temperature Values
 Tm_Wallace: 994.00
 Tm_GC: 72.69
 Tm_NN: 74.84
-Arizona's: 63.54
+Arizona's: 78.21
 
 ----------------------------------------------------------
 File: Covid-19 sequences Wuhan.fasta
@@ -143,13 +151,14 @@ A: 400
 C: 315
 G: 280
 T: 265
-Amount of GC: 85
+Amount of GC: 595
+% of GC: 47.22%
 
 Melting Temperature Values
 Tm_Wallace: 3710.00
 Tm_GC: 78.54
 Tm_NN: 81.88
-Arizona's: 64.53
+Arizona's: 83.86
 
 ----------------------------------------------------------
 File: Covid-19 sequences Wuhan.fasta
@@ -160,11 +169,12 @@ A: 35
 C: 21
 G: 19
 T: 42
-Amount of GC: 4
+Amount of GC: 40
+% of GC: 34.19%
 
 Melting Temperature Values
 Tm_Wallace: 314.00
 Tm_GC: 68.54
 Tm_NN: 69.85
-Arizona's: 60.64
+Arizona's: 74.64
 
