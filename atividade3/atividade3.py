@@ -25,7 +25,6 @@ exit_file = open('saida.txt', 'w')
 
 # Arrays for the Graphic
 TMarizona_values = []
-TMwallace_values = []
 TMGC_values = []
 TMNN_values = []
 GC_values = []
@@ -66,7 +65,6 @@ for file in files:
             exit_file.writelines('\nMelting Temperature Values\n')
 
             # Calculating Melting Temperature
-            exit_file.writelines('Tm_Wallace: {}\n'.format('%0.2f' % mt.Tm_Wallace(sequence)))
             exit_file.writelines('Tm_GC: {}\n'.format('%0.2f' % mt.Tm_GC(sequence)))
             exit_file.writelines('Tm_NN: {}\n'.format('%0.2f' % mt.Tm_NN(sequence)))
 
@@ -77,7 +75,6 @@ for file in files:
 
             # Getting information for each graphic
             TMarizona_values.append(tm)
-            TMwallace_values.append(mt.Tm_Wallace(sequence))
             TMGC_values.append(mt.Tm_GC(sequence))
             TMNN_values.append(mt.Tm_NN(sequence))
             GC_values.append(percentage_of_GC)
@@ -91,15 +88,6 @@ plt.title('Arizona\'s Formula', fontsize=12)
 plt.xlabel('% of GC', fontsize=10)
 plt.ylabel('Melting Temperature ºC', fontsize=10)
 plt.savefig('arizona_values.png')
-mplcursors.cursor(hover=True)
-plt.figure()
-
-# Rule of thumb
-plt.scatter(GC_values, TMwallace_values)
-plt.title('Rule of thumb', fontsize=12)
-plt.xlabel('% of GC', fontsize=10)
-plt.ylabel('Melting Temperature ºC', fontsize=10)
-plt.savefig('rule_of_thumb_values.png')
 mplcursors.cursor(hover=True)
 plt.figure()
 
@@ -119,7 +107,6 @@ plt.xlabel('% of GC', fontsize=10)
 plt.ylabel('Melting Temperature ºC', fontsize=10)
 plt.savefig('nn_values.png')
 mplcursors.cursor(hover=True)
-plt.figure()
 
 # Show all graphics
 plt.show()

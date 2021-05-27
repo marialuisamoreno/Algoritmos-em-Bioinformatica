@@ -11,7 +11,6 @@ Amount of GC: 7974
 % of GC: 37.45%
 
 Melting Temperature Values
-Tm_Wallace: 58528.00
 Tm_GC: 74.98
 Tm_NN: 77.47
 Arizona's: 80.23
@@ -29,7 +28,6 @@ Amount of GC: 1426
 % of GC: 37.31%
 
 Melting Temperature Values
-Tm_Wallace: 10496.00
 Tm_GC: 74.80
 Tm_NN: 77.47
 Arizona's: 80.07
@@ -47,7 +45,6 @@ Amount of GC: 327
 % of GC: 39.49%
 
 Melting Temperature Values
-Tm_Wallace: 2310.00
 Tm_GC: 75.12
 Tm_NN: 77.89
 Arizona's: 80.49
@@ -65,7 +62,6 @@ Amount of GC: 87
 % of GC: 38.16%
 
 Melting Temperature Values
-Tm_Wallace: 630.00
 Tm_GC: 72.67
 Tm_NN: 74.89
 Arizona's: 78.35
@@ -83,7 +79,6 @@ Amount of GC: 285
 % of GC: 42.60%
 
 Melting Temperature Values
-Tm_Wallace: 1908.00
 Tm_GC: 76.22
 Tm_NN: 79.06
 Arizona's: 81.62
@@ -101,7 +96,6 @@ Amount of GC: 52
 % of GC: 27.96%
 
 Melting Temperature Values
-Tm_Wallace: 476.00
 Tm_GC: 67.89
 Tm_NN: 69.41
 Arizona's: 73.67
@@ -119,7 +113,6 @@ Amount of GC: 140
 % of GC: 38.25%
 
 Melting Temperature Values
-Tm_Wallace: 1012.00
 Tm_GC: 73.70
 Tm_NN: 76.42
 Arizona's: 79.22
@@ -137,7 +130,6 @@ Amount of GC: 131
 % of GC: 35.79%
 
 Melting Temperature Values
-Tm_Wallace: 994.00
 Tm_GC: 72.69
 Tm_NN: 74.84
 Arizona's: 78.21
@@ -155,7 +147,6 @@ Amount of GC: 595
 % of GC: 47.22%
 
 Melting Temperature Values
-Tm_Wallace: 3710.00
 Tm_GC: 78.54
 Tm_NN: 81.88
 Arizona's: 83.86
@@ -173,7 +164,6 @@ Amount of GC: 40
 % of GC: 34.19%
 
 Melting Temperature Values
-Tm_Wallace: 314.00
 Tm_GC: 68.54
 Tm_NN: 69.85
 Arizona's: 74.64
