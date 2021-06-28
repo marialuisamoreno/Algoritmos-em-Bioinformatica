@@ -33,17 +33,13 @@ def subString(s, n, word):
         if (word.find(substring) != -1):
             return s[len: n]
  
-# aux variable for the first string
-aux = reads[0]
 # contig string for the result
-contig = aux
+contig = reads[0]
 for r in range(1, len(reads)):
     # this function will return the other half of the string where they don't match
-    value = subString(reads[r], len(reads[r]), aux)
+    value = subString(reads[r], len(reads[r]), contig)
     # here will be built the contig
     contig += value
-    # update de aux variable
-    aux = reads[r]
 
 # print(contig)
 # Now the contig needs to be saved on a fasta file
