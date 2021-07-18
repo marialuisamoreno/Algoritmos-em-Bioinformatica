@@ -1,0 +1,17 @@
+2) 
+(a)
+Identidade: 99
+Identidade Média: 82.5%
+(b)
+Escore: 452
+Escore Médio: 376.67%
+
+3)
+Escore: 99
+O resultado foi um valor de escore igual ao da identidade. Muito provavelmente ambas as sequências já estavam no melhor alinhamento possível, o que condiz com o algoritmo do Pairwise.
+Em relação ao valor de escore, por possuir uma lógica própria para cada par de nucleotídeos, sua soma se diferenciou do valor dado pelo Pairwise.
+
+4)
+Escore Máximo: 600.
+Caso ambas as sequências fossem iguais, o valor máximo para cada par de nucleotídeos seria 5.
+Com base nesse valor máximo, podemos dizer que as sequências não são tão parecidas entre si, já que o valor obtido foi de 99/600 possível.
